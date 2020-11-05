@@ -1,0 +1,24 @@
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:paddingTop="15dp"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:src="@drawable/b709a40b84c8fb5fb69f544872b4bd1a"/>
+
+    <include layout="@layout/card_view_primero"/>
+
+    <include layout="@layout/card_view_segundo"/>
+
+
+
+</LinearLayout>
